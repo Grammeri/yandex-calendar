@@ -63,9 +63,18 @@ body {
     text-align: center;
     font-size: 14px;
     background-color: #fff;
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
+.date-input:hover {
+    border: 1px solid #ccc;
+}
+
+.date-input:focus {
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+}
 .clear-button {
     border: none;
     background: none;
@@ -76,6 +85,11 @@ body {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.clear-button:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .clear-button.inside {
