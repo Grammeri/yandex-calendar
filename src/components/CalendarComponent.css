@@ -63,9 +63,19 @@ body {
     text-align: center;
     font-size: 14px;
     background-color: #fff;
-    cursor: not-allowed;
+    cursor: pointer;
+}
+/* Состояние наведения мыши */
+.date-input:hover {
+    border: 1px solid #ccc; /* Сохраняем ту же обводку */
 }
 
+/* Состояние фокуса */
+.date-input:focus {
+    border: 1px solid #ccc; /* Оставляем обводку такой же */
+    outline: none; /* Убираем стандартную подсветку браузера */
+    box-shadow: none; /* Убираем любые тени */
+}
 .clear-button {
     border: none;
     background: none;
@@ -76,6 +86,11 @@ body {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.clear-button:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .clear-button.inside {
