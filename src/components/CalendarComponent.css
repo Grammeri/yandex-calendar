@@ -87,11 +87,6 @@ body {
     transform: translateY(-50%);
 }
 
-.clear-button:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 .clear-button.inside {
     position: absolute;
     right: 10px;
