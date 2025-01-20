@@ -144,7 +144,7 @@ const CalendarComponent: React.FC = () => {
                                     clearDate("checkIn");
                                 }}
                             >
-                                ×
+                                &#215;
                             </button>
                         )}
                     </div>
@@ -167,7 +167,7 @@ const CalendarComponent: React.FC = () => {
                                     clearDate("checkOut");
                                 }}
                             >
-                                ×
+                                &#215;
                             </button>
                         )}
                     </div>
